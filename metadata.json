@@ -1,0 +1,6 @@
+{
+  "name": "TempMail Minimal",
+  "description": "Service de messagerie temporaire et jetable avec renouvellement automatique et accès instantané aux boîtes de réception.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

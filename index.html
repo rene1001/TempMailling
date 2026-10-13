@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <script>
+      (function() {
+        try {
+          var _fetch = window.fetch ? window.fetch.bind(window) : undefined;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return _fetch;
+            },
+            set: function(val) {
+              _fetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (err) {
+          // Fallback if defineProperty fails
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temporary Mail – Free Disposable Temporary Email & Anti-Spam Inbox</title>
+    <meta name="description" content="Generate a free, secure disposable email address on Temporary Mail. Stay protected against spam, enjoy auto-renewal, and copy verification codes with 1 click." />
+    <meta name="keywords" content="temporary mail, temp mail, disposable email, throwaway email, temporary email address, anonymous mail, fake email generator, anti-spam, 10 minute mail" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="Temporary Mail" />
+    <link rel="canonical" href="https://tempmailling.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://tempmailling.com/" />
+    <link rel="alternate" hreflang="en" href="https://tempmailling.com/?lang=en" />
+    <link rel="alternate" hreflang="fr" href="https://tempmailling.com/?lang=fr" />
+    <link rel="alternate" hreflang="es" href="https://tempmailling.com/?lang=es" />
+    <link rel="alternate" hreflang="de" href="https://tempmailling.com/?lang=de" />
+    <link rel="alternate" hreflang="pt" href="https://tempmailling.com/?lang=pt" />
+    <link rel="alternate" hreflang="it" href="https://tempmailling.com/?lang=it" />
+    <link rel="alternate" hreflang="ar" href="https://tempmailling.com/?lang=ar" />
+    
+    <!-- OpenGraph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://tempmailling.com/" />
+    <meta property="og:site_name" content="Temporary Mail" />
+    <meta property="og:title" content="Temporary Mail – Free Disposable Temporary Email & Anti-Spam Inbox" />
+    <meta property="og:description" content="Generate a free, secure disposable email address on Temporary Mail. Stay protected against spam, enjoy auto-renewal, and copy verification codes with 1 click." />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:domain" content="tempmailling.com" />
+    <meta name="twitter:title" content="Temporary Mail – Free Disposable Temporary Email & Anti-Spam Inbox" />
+    <meta name="twitter:description" content="Generate a free, secure disposable email address on Temporary Mail. Stay protected against spam, enjoy auto-renewal, and copy verification codes with 1 click." />
+
+    <!-- Structured Data (Schema.org) for Google Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://tempmailling.com/#webapp",
+          "name": "Temporary Mail",
+          "url": "https://tempmailling.com/",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "All",
+          "inLanguage": "en",
+          "description": "Free, secure, and anonymous temporary disposable email service with automatic renewal and instant verification code extraction.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "featureList": [
+            "Instant disposable email address generation",
+            "Continuous automatic timer renewal",
+            "Automatic OTP verification code extraction",
+            "Optional Gmail connection and anonymous public addresses",
+            "Zero logs, complete spam protection and privacy"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://tempmailling.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a temporary disposable email address?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A temporary disposable email address is an ephemeral inbox that allows you to receive emails without exposing your personal email address. It protects your primary address from marketing spam and data leaks."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does the temporary address remain active?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "By default, each inbox stays active for 10 minutes. With our continuous auto-renewal feature, the timer resets automatically as long as you keep the page open. You can also manually add 10 minutes at any time."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Temporary Mail completely free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, Temporary Mail is 100% free with no registration, no password, and no payment required."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I receive verification codes and OTPs?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, our system automatically scans incoming messages to extract 4, 6, or 8-digit OTP verification codes for instant 1-click copying."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
